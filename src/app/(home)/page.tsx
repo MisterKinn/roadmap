@@ -204,7 +204,7 @@ function RoadMap() {
 
             <div className="container">
                 <a
-                    href="mailto:roadmap@kinn.kr"
+                    href="mailto:help@gmsh.kr"
                     target="_blank"
                     title="Mail"
                     className="no-deco"
@@ -221,7 +221,7 @@ function RoadMap() {
                                     <strong>Mail</strong>
                                 </span>
                                 <div className="card-text">
-                                    <strong>roadmap@kinn.kr</strong>
+                                    <strong>help@gmsh.kr</strong>
                                 </div>
                             </div>
                         </div>
