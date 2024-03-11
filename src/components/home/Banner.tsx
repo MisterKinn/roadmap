@@ -15,13 +15,13 @@ function Banner() {
         <div id="banner" className="body">
             <MobileBanner>
                 <a
-                    href="https://kinn.kr/"
+                    href="https://gmsh.kr/"
                     target="_blank"
-                    title="Kinn's Lounge"
+                    title="RoadMap"
                 >
                     <img
                         loading="lazy"
-                        src="img/kinn-banner.png"
+                        src="img/roadmap-banner.png"
                         alt="Kinn's Lounge"
                         className="banner margin10"
                     />
