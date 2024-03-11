@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         icon: "img/road-map.png",
     },
     other: {
-        url: "img/black-banner.png",
+        url: "img/roadmap-banner.png",
     },
 };
 
