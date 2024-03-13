@@ -4,7 +4,7 @@ import styled from "styled-components";
 const MobileBanner = styled.div`
     @media only screen and (max-width: 800px) {
         .banner {
-            height: 6em;
+            height: 12em;
             width: auto;
         }
     }
@@ -14,10 +14,14 @@ function Banner() {
     return (
         <div id="banner" className="body">
             <MobileBanner>
-                <a href="https://gmsh.kr/" target="_blank" title="RoadMap">
+                <a
+                    href="https://kinn.kr/"
+                    target="_blank"
+                    title="Kinn's Lounge"
+                >
                     <img
                         loading="lazy"
-                        src="img/roadmap-banner.png"
+                        src="img/kinn-banner.png"
                         alt="Kinn's Lounge"
                         className="banner margin10"
                     />

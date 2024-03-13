@@ -1,5 +1,5 @@
-body,
-.body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: "Verdana";
@@ -27,7 +27,7 @@ body,
     align-items: center;
     object-fit: cover;
     height: 100vh;
-    filter: brightness(0.6);
+    filter: brightness(0.4);
 }
 
 .header-container {
@@ -42,17 +42,18 @@ body,
     visibility: hidden;
 }
 
-.hello {
-    font-size: 2em;
-    color: #eee;
-    margin-top: 5em;
-    margin-bottom: 0;
+.name {
+    font-size: 6.9em;
+    color: #5d3fd3;
+    margin-top: 1em;
+    margin-bottom: 0px;
 }
 
-.kinn {
-    font-size: 9em;
-    color: #0064ff;
-    margin: 0;
+.introduce {
+    text-align: center;
+    font-size: 2.75em;
+    margin-top: 0.3em;
+    color: #eee;
 }
 
 .container {
@@ -61,12 +62,12 @@ body,
     justify-content: center;
 }
 
-.card-container, .card-container2 {
+.card-container {
     display: flex;
     flex-direction: column;
     flex: 0 0 calc(25% - 5px);
     height: 5em;
-    width: 13em;
+    width: 9em;
     gap: 30px;
     background-color: #1c1c1c;
     box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
@@ -95,13 +96,6 @@ body,
     color: white;
 }
 
-.introduce {
-    text-align: center;
-    font-size: 3em;
-    margin-top: 2em;
-    color: #eee;
-}
-
 .wave {
     height: 1em;
     width: 1em;
@@ -127,16 +121,6 @@ body,
     }
 }
 
-.usa {
-    height: 1.2em;
-    width: auto;
-}
-
-.f1 {
-    height: 1em;
-    width: auto;
-}
-
 .toss {
     height: 2.75em;
     width: auto;
@@ -155,7 +139,7 @@ body,
     margin-top: 5em;
     padding-top: 3em;
     font-size: 50px;
-    color: #0064ff;
+    color: #5d3fd3;
 }
 
 .support {
@@ -185,6 +169,7 @@ body,
     padding-right: 70%;
     margin-top: 15%;
     padding-top: 3em;
+    margin-bottom: 0px;
     font-size: 50px;
     color: white;
 }
@@ -196,8 +181,11 @@ body,
     padding-right: 20px;
 }
 
-.discord {
-    width: auto;
+.click-guide {
+    text-align: center;
+    padding-right: 63%;
+    padding-bottom: 2em;
+    color: white;
 }
 
 .spec {
@@ -211,7 +199,15 @@ body,
     color: #5d3fd3;
 }
 
-.spec2,
+.spec2 {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    height: 3em;
+    width: 3em;
+}
+
 .spec3 {
     font-size: 35px;
     color: white;
@@ -274,4 +270,18 @@ p {
     text-align: center;
     font-size: 25px;
     color: grey;
+}
+
+@media (max-width: 800px) {
+    .name {
+        font-size: 5em;
+    }
+
+    .introduce {
+        font-size: 2.3em;
+    }
+
+    .about-me {
+        font-size: 20px;
+    }
 }
