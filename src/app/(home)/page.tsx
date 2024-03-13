@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { handleAboutMe, handlePortfolio, handleExperience } from "../../app/handleText.js";
+import { handleAboutMe, handlePortfolio, handleExperience } from "../../app/handleText";
 import "../../styles/style.css";
 import AOS from "aos";
 import "../../styles/aos.css";

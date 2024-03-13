@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "../../styles/style.css";
 import AOS from "aos";
 import "../../styles/aos.css";
-import { handlePortfolio } from "../../app/handleText.js";
+import { handlePortfolio } from "../../app/handleText";
 import styled from "styled-components";
 
 const MobileBox = styled.div`

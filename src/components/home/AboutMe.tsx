@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "../../styles/style.css";
 import AOS from "aos";
 import "../../styles/aos.css";
-import { handleAboutMe } from "../../app/handleText.js";
+import { handleAboutMe } from "../../app/handleText";
 import styled from "styled-components";
 
 const MobileAboutMe = styled.div`
