@@ -10,6 +10,10 @@ import Footer from "../../components/home/Footer";
 function RoadMap() {
     const [imgSrc, setImgSrc] = useState("img/gmsh.png");
 
+    const joinElementOnclick = () => {
+        alert("지금은 동아리 부원 모집 기간이 아닙니다.");
+    };
+
     useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -55,9 +59,9 @@ function RoadMap() {
                         됩니다.
                     </h2>
                     <a
-                        href="https://tally.so/r/meedxq"
-                        target="_blank"
+                        href="#"
                         title="RoadMap 지원하기"
+                        onClick={joinElementOnclick}
                     >
                         <button className="join" data-aos="fade-up">
                             동아리 지원하기
