@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>FlexBox</title>
+        <style>
+            ul,
+            p {
+                border: 10px blue solid;
+                margin: 0;
+            }
+
+            .container {
+                border: 10px red solid;
+                display: flex;
+                justify-content: center;
+            }
+
+            ul {
+                flex-basis: 100px;
+            }
+
+            p {
+                flex-basis: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+            </ul>
+            <p>web is...</p>
+        </div>
+    </body>
+</html>

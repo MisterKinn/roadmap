@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RoadMap</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="../img/road-map.png" type="image/x-icon" />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                font-family: "Verdana";
+                text-align: center;
+                overflow-x: hidden;
+            }
+
+            .home {
+                height: 100vh;
+                width: 100%;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+            }
+
+            .header-container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .header-img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                object-fit: cover;
+                filter: brightness(0.3);
+            }
+
+            .title {
+                font-size: 60px;
+                color: white;
+                margin: 0.5em;
+            }
+
+            .sub-title {
+                font-size: 1.75em;
+                color: grey;
+                text-shadow: 2px 2px black;
+            }
+
+            .join {
+                background-color: #ffffff;
+                color: #333333;
+                height: 3em;
+                width: 10em;
+                margin-top: 0.4em;
+                border-radius: 30px;
+                border: 2px solid #333333;
+                font-size: 25px;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+            .join:hover {
+                background-color: #333333;
+                color: #ffffff;
+            }
+
+            .body-title {
+                color: #0064ff;
+                font-size: 60px;
+                margin-top: 300px;
+            }
+
+            .curriculum-title {
+                color: white;
+                font-size: 40px;
+                margin-bottom: 0;
+            }
+
+            .body-text {
+                color: grey;
+                font-size: 25px;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                height: 3em;
+                width: 8em;
+                gap: 30px;
+                background-color: #1c1c1c;
+                box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
+                border-radius: 16px;
+                margin: 10px;
+                padding: 24px;
+            }
+
+            .align-left {
+                text-align: left;
+            }
+
+            .spec3 {
+                font-size: 35px;
+                color: white;
+                text-decoration: none;
+                height: 3em;
+                width: 7em;
+            }
+
+            .card-img {
+                height: 50px;
+                width: 50px;
+            }
+
+            .margin-left {
+                margin-left: -50px;
+            }
+
+            .card-title {
+                font-size: 30px;
+                color: white;
+            }
+
+            .card-text {
+                text-align: left;
+                font-size: 18px;
+                color: grey;
+            }
+
+            .card-footer {
+                font-size: 17px;
+                color: white;
+            }
+
+            .spec {
+                font-size: 35px;
+                color: white;
+                text-decoration: none;
+            }
+
+            .spec2 {
+                color: white;
+                text-decoration: none;
+            }
+
+            .bottom-join {
+                margin-top: 20em;
+                margin-bottom: 5em;
+            }
+
+            a {
+                color: red;
+                text-decoration: none;
+            }
+
+            p {
+                margin: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="home">
+            <img src="../img/gmsh.png" class="header-img" />
+            <div class="header-container">
+                <h1 class="title">
+                    당신도 무언가를<br />상상해본 적이 있나요?
+                </h1>
+                <h2 class="sub-title">
+                    우리는 상상을 현실로 구현합니다.
+                    <br />
+                    <strong>RoadMap</strong>은 교내 유일 웹 개발 동아리입니다.
+                    <br />
+                    <strong>RoadMap</strong>과 함께라면 당신의 상상은
+                    현실이됩니다.
+                </h2>
+
+                <a
+                    href="https://tally.so/r/meedxq"
+                    target="_blank"
+                    title="RoadMap 지원하기"
+                >
+                    <button class="join">동아리 지원하기</button>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="body-title">About RoadMap</h2>
+        <div class="body-text">
+            <p>
+                <a
+                    href="https://gmsh.kr"
+                    target="_blank"
+                    title="RoadMap Web Page"
+                >
+                    <strong>RoadMap</strong>
+                </a>
+                은 교내 유일 웹 개발 동아리이며,
+                <br />
+                웹 개발을 학습하고 함께 실습하며
+                <br />
+                웹 개발자로서의 역량을 쌓아나가는 동아리입니다.
+            </p>
+            <p>
+                <br />여러분의 웹 사이트를 만들고 동아리 자체 서버와
+                <br />도메인으로 웹을 호스팅하여 전 세계에서 여러분의 웹
+                페이지에 <br />접속해 마법 같은 경험을 할 수 있도록 만듭니다.
+            </p>
+            <p>
+                <br />또한 동아리 내부에서 개인·팀 프로젝트를 통해 <br />리더십
+                및 협업 능력을 향상시키고, <br />해커톤과 같은 대회에 참가하여
+                부원들의 <br />실력과 RoadMap의 명성을 높입니다.
+            </p>
+        </div>
+
+        <h2 class="body-title">Curriculum</h2>
+        <div class="container">
+            <div class="spec">
+                <div class="card-container spec2">
+                    <div>
+                        <img
+                            loading="lazy"
+                            src="../img/html.png"
+                            class="card-img margin-left"
+                        />
+                        <span class="card-title">
+                            <strong>웹 개발 기초</strong>
+                        </span>
+                        <div class="card-text">
+                            <strong>
+                                웹의 작동 방식과 웹의 기본 언어인
+                                <br />
+                                HTML, CSS 등을 학습합니다.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spec">
+                <div class="card-container spec2">
+                    <div>
+                        <img
+                            loading="lazy"
+                            src="../img/js.png"
+                            class="card-img margin-left"
+                        />
+                        <span class="card-title">
+                            <strong>프론트엔드 기초</strong>
+                        </span>
+                        <div class="card-text">
+                            <strong>
+                                프론트엔드 웹 개발의 기반 언어인
+                                <br />
+                                JavaScript를 학습하고
+                                <br />
+                                반응형 웹을 만듭니다.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="spec">
+                <div class="card-container spec2">
+                    <div>
+                        <img
+                            loading="lazy"
+                            src="../img/React.png"
+                            class="card-img margin-left"
+                        />
+                        <span class="card-title">
+                            <strong>프론트엔드 심화</strong>
+                        </span>
+                        <div class="card-text">
+                            <strong>
+                                React를 통해 더욱 효율적으로
+                                <br />
+                                웹을 개발합니다.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spec">
+                <div class="card-container spec2">
+                    <div>
+                        <img
+                            loading="lazy"
+                            src="../img/Nextjs.png"
+                            class="card-img margin-left"
+                        />
+                        <span class="card-title">
+                            <strong>웹개발 마스터</strong>
+                        </span>
+                        <div class="card-text">
+                            <strong>
+                                Next.JS를 통해 대기업들이 <br />
+                                실무에서 사용하는 방식으로
+                                <br />
+                                웹을 개발합니다.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            <h3 class="curriculum-title">웹 개발 기초</h3>
+            <p class="body-text">
+                웹의 작동 방식과 웹의 기본 언어인
+                <br />HTML, CSS 등을 학습합니다.
+            </p>
+
+            <h3 class="curriculum-title">프론트엔드 기초</h3>
+            <p class="body-text">
+                프론트엔드 웹 개발의 기반 언어인
+                <br />JavaScript를 학습하고 반응형 웹을 개발합니다.
+            </p>
+
+            <h3 class="curriculum-title">프론트엔드 심화</h3>
+            <p class="body-text">React를 통해 더욱 효율적으로 웹을 개발합니다.</p>
+            
+            <h3 class="curriculum-title">웹개발 마스터</h3>
+            <p class="body-text">
+                Next.JS를 통해 대기업들이 실무에서
+                <br />사용하는 방식으로 웹을 개발합니다.
+            </p>
+        -->
+
+        <h2 class="body-title">Contact Us</h2>
+        <div class="container">
+            <div class="spec">
+                <a href="mailto:help@gmsh.kr" target="_blank" title="Instagram">
+                    <div class="card-container spec3 align-left">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="../img/mail.png"
+                                class="card-img"
+                            />
+                            <span class="card-title">
+                                <strong>Mail</strong>
+                            </span>
+                            <div class="card-text">
+                                <strong>help@gmsh.kr</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="spec">
+                <a
+                    href="https://www.instagram.com/gmsh_roadmap"
+                    target="_blank"
+                    title="Instagram"
+                >
+                    <div class="card-container spec3">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="../img/instagram.png"
+                                class="card-img"
+                            />
+                            <span class="card-title">
+                                <strong>Instagram</strong>
+                            </span>
+                            <div class="card-text">
+                                <strong>gmsh_roadmap</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--
+            <h3 class="curriculum-title">Email</h3>
+            <p class="body-text">help@gmsh.kr</p>
+
+            <h3 class="curriculum-title">Instagram</h3>
+            <p class="body-text">@gmsh_roadmap</p>
+        -->
+
+        <div class="bottom-join">
+            <h1 class="title">
+                지금도 새로운 역사를
+                <br />
+                만들고 있습니다
+            </h1>
+            <h2 class="sub-title">
+                RoadMap이 만드는 수많은 혁신의 순간들,
+                <br />
+                당신과 함께 만들고 싶습니다.
+                <br />
+                지금 RoadMap에 합류하세요!
+            </h2>
+            <a
+                href="https://tally.so/r/meedxq"
+                target="_blank"
+                title="RoadMap 지원하기"
+            >
+                <button class="join">동아리 지원하기</button>
+            </a>
+        </div>
+
+        <a href="https://gmsh.kr" target="_blank" title="RoadMap Web Page">
+            <img src="../img/roadmap-banner.png" height="300px" width="auto" />
+        </a>
+    </body>
+</html>
