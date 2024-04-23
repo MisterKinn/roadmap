@@ -19,8 +19,9 @@ body {
     top: 0;
     text-align: center;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -29,14 +30,12 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     filter: brightness(0.4);
 }
 
 .text-container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .title {
@@ -45,8 +44,20 @@ body {
     margin: 0.5em;
 }
 
+.mobile-title {
+    font-size: 2.25em;
+    color: white;
+    margin: 0.5em;
+}
+
 .sub-title {
     font-size: 1.75em;
+    color: grey;
+    text-shadow: 2px 2px black;
+}
+
+.mobile-sub-title {
+    font-size: 1.5em;
     color: grey;
     text-shadow: 2px 2px black;
 }
@@ -74,8 +85,25 @@ body {
 .introduce {
     text-align: center;
     margin-top: 5em;
-    font-size: 50px;
+    font-size: 4em;
     color: white;
+}
+
+.intro-text {
+    margin-top: -1.5em;
+}
+
+.mobile-intro-text {
+    margin-top: -1.5em;
+    font-size: 1.25em;
+}
+
+.mobile-project-text {
+    font-size: 1.25em;
+}
+
+.blue {
+    color: #0064ff;
 }
 
 .container {
@@ -86,8 +114,21 @@ body {
 .card-container {
     display: flex;
     flex-direction: column;
-    height: 8.5em;
-    width: 22em;
+    height: 4em;
+    width: 9em;
+    gap: 30px;
+    background-color: #1c1c1c;
+    box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 24px;
+}
+
+.card-container2 {
+    display: flex;
+    flex-direction: column;
+    height: 3em;
+    width: 7em;
     gap: 30px;
     background-color: #1c1c1c;
     box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
@@ -145,9 +186,14 @@ body {
     padding-right: 20px;
 }
 
+.white {
+    color: white;
+}
+
 p {
     text-align: center;
     font-size: 25px;
+    font-weight: bold;
     color: grey;
 }
 
@@ -157,28 +203,29 @@ p {
 }
 
 .banner {
-    height: 30%;
-    width: 30%;
+    height: 15em;
+    width: auto;
     display: block;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media (max-width: 800px) {
-    .title {
-        font-size: 2.1em;
-    }
+.mobile-banner {
+    height: 10em;
+    width: auto;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .sub-title {
-        font-size: 1.3em;
-    }
-
-    .intro-text {
-        font-size: 20px;
-    }
-
-    .card-title {
-        font-size: 25px;
-    }
+#home,
+#about, 
+#curriculum,
+#project,
+#profile,
+#promotion {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }

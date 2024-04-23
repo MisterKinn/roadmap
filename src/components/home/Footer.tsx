@@ -1,12 +1,4 @@
 import { useEffect, useRef } from "react";
-import styled from "styled-components";
-
-styled.p`
-    font-family: "Verdana";
-    text-align: center;
-    font-size: 25px;
-    color: grey;
-`;
 
 function Footer() {
     const yearRef = useRef<HTMLSpanElement>(null);
