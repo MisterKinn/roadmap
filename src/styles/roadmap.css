@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: "Verdana";
+    font-family: "__Inter_aaf875", "__Inter_Fallback_aaf875";
     background-color: black;
     position: relative;
     overflow-x: hidden;
@@ -39,27 +39,63 @@ body {
 }
 
 .title {
-    font-size: 3.5em;
+    font-size: 3.75em;
     color: white;
     margin: 0.5em;
 }
 
 .mobile-title {
+    margin-top: -0.5em;
     font-size: 2.25em;
     color: white;
-    margin: 0.5em;
 }
 
 .sub-title {
+    margin-bottom: -1em;
     font-size: 1.75em;
-    color: grey;
-    text-shadow: 2px 2px black;
+    color: #ccc;
 }
 
 .mobile-sub-title {
     font-size: 1.5em;
-    color: grey;
-    text-shadow: 2px 2px black;
+    color: #ccc;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.arrow {
+    width: 5em;
+    margin-top: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+}
+
+.mobile-arrow {
+    width: 5em;
+    margin-top: 35em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 2em;
+    }
 }
 
 .join {
@@ -68,7 +104,7 @@ body {
     color: #333333;
     height: 3em;
     width: 10em;
-    margin-top: 0.4em;
+    margin-top: 3em;
     padding: 10px 20px;
     border-radius: 30px;
     border: 2px solid #333333;
@@ -157,6 +193,7 @@ body {
 }
 
 .card-text {
+    margin-top: 0.5em;
     text-align: left;
     font-size: 20px;
     color: grey;
@@ -165,6 +202,12 @@ body {
 .card-footer {
     font-size: 17px;
     color: white;
+}
+
+.column-center {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 
 .spec {
@@ -221,7 +264,7 @@ p {
 }
 
 #home,
-#about, 
+#about,
 #curriculum,
 #project,
 #profile,

@@ -9,14 +9,16 @@ function Curriculum() {
                     <div className="spec">
                         <div className="card-container spec2">
                             <div>
-                                <img
-                                    loading="lazy"
-                                    src="img/html.png"
-                                    className="card-img"
-                                />
-                                <span className="card-title">
-                                    <strong> 웹 개발 기초</strong>
-                                </span>
+                                <div className="column-center">
+                                    <img
+                                        loading="lazy"
+                                        src="img/html.png"
+                                        className="card-img"
+                                    />
+                                    <span className="card-title">
+                                        <strong> 웹 개발 기초</strong>
+                                    </span>
+                                </div>
                                 <div className="card-text">
                                     <strong>
                                         웹의 작동 방식과 웹의 기본 언어인
@@ -31,14 +33,16 @@ function Curriculum() {
                     <div className="spec">
                         <div className="card-container spec2">
                             <div>
-                                <img
-                                    loading="lazy"
-                                    src="img/js.png"
-                                    className="card-img"
-                                />
-                                <span className="card-title">
-                                    <strong> 프론트엔드 기초</strong>
-                                </span>
+                                <div className="column-center">
+                                    <img
+                                        loading="lazy"
+                                        src="img/js.png"
+                                        className="card-img"
+                                    />
+                                    <span className="card-title">
+                                        <strong> 프론트엔드 기초</strong>
+                                    </span>
+                                </div>
                                 <div className="card-text">
                                     <strong>
                                         프론트엔드 웹 개발의 기반 언어인
@@ -57,14 +61,16 @@ function Curriculum() {
                     <div className="spec">
                         <div className="card-container spec2">
                             <div>
-                                <img
-                                    loading="lazy"
-                                    src="img/React.png"
-                                    className="card-img"
-                                />
-                                <span className="card-title">
-                                    <strong> 프론트엔드 심화</strong>
-                                </span>
+                                <div className="column-center">
+                                    <img
+                                        loading="lazy"
+                                        src="img/React.png"
+                                        className="card-img"
+                                    />
+                                    <span className="card-title">
+                                        <strong> 프론트엔드 심화</strong>
+                                    </span>
+                                </div>
                                 <div className="card-text">
                                     <strong>
                                         React를 통해 더욱 효율적으로
@@ -79,14 +85,16 @@ function Curriculum() {
                     <div className="spec">
                         <div className="card-container spec2">
                             <div>
-                                <img
-                                    loading="lazy"
-                                    src="img/Nextjs.png"
-                                    className="card-img"
-                                />
-                                <span className="card-title">
-                                    <strong> 웹개발 마스터</strong>
-                                </span>
+                                <div className="column-center">
+                                    <img
+                                        loading="lazy"
+                                        src="img/Nextjs.png"
+                                        className="card-img"
+                                    />
+                                    <span className="card-title">
+                                        <strong> 웹개발 마스터</strong>
+                                    </span>
+                                </div>
                                 <div className="card-text">
                                     <strong>
                                         Next.JS를 통해 대기업들이 <br />
@@ -101,7 +109,7 @@ function Curriculum() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Curriculum;

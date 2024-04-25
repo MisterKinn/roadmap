@@ -16,14 +16,16 @@ function Profile() {
                         <div className="spec">
                             <div className="card-container2">
                                 <div>
-                                    <img
-                                        loading="lazy"
-                                        src="img/mail.png"
-                                        className="card-img"
-                                    />
-                                    <span className="card-title">
-                                        <strong>Mail</strong>
-                                    </span>
+                                    <div className="column-center">
+                                        <img
+                                            loading="lazy"
+                                            src="img/mail.png"
+                                            className="card-img"
+                                        />
+                                        <span className="card-title">
+                                            <strong>Mail</strong>
+                                        </span>
+                                    </div>
                                     <div className="card-text">
                                         <strong>help@gmsh.kr</strong>
                                     </div>
@@ -32,7 +34,7 @@ function Profile() {
                         </div>
                     </a>
                 </div>
-                
+
                 <div className="container">
                     <div className="spec">
                         <a
@@ -43,14 +45,16 @@ function Profile() {
                         >
                             <div className="card-container2">
                                 <div>
-                                    <img
-                                        loading="lazy"
-                                        src="img/instagram.png"
-                                        className="card-img"
-                                    />
-                                    <span className="card-title">
-                                        <strong>Instagram</strong>
-                                    </span>
+                                    <div className="column-center">
+                                        <img
+                                            loading="lazy"
+                                            src="img/instagram.png"
+                                            className="card-img"
+                                        />
+                                        <span className="card-title">
+                                            <strong>Instagram</strong>
+                                        </span>
+                                    </div>
                                     <div className="card-text">
                                         <strong>gmsh_roadmap</strong>
                                     </div>
@@ -61,7 +65,7 @@ function Profile() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Profile;

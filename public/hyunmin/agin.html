@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+        <style>
+            body {
+                margin: 0;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+
+            .home {
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .header-container {
+                position: absolute;
+                text-align: center;
+            }
+
+            img {
+                height: 100vh;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="home">
+            <div class="header-container">
+                <h1 id="clock"></h1>
+                <h2 id="greeting"></h2>
+
+                <div id="weather">
+                    <div id="temp"></div>
+                    <div id="cityS"></div>
+                </div>
+
+                <div id="quote-container">
+                    <div id="quote"></span>
+                    <div id="author"></span>
+                </div>
+            </div>
+        </div>
+
+        <script src="script/clock.js"></script>
+        <script src="script/quote.js"></script>
+        <script src="script/background.js"></script>
+        <script src="script/weather.js"></script>
+    </body>
+</html>

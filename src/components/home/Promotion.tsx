@@ -7,6 +7,7 @@ function Promotion() {
                     <br />
                     만들고 있습니다
                 </h1>
+
                 <h2 className="sub-title" data-aos="fade-up">
                     RoadMap이 만드는 수많은 혁신의 순간들,
                     <br />
@@ -14,6 +15,7 @@ function Promotion() {
                     <br />
                     지금 RoadMap에 합류하세요!
                 </h2>
+
                 <a
                     href="https://tally.so/r/meedxq"
                     target="_blank"
@@ -25,7 +27,7 @@ function Promotion() {
                 </a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Promotion;
