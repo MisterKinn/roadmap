@@ -1,0 +1,15 @@
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    margin-top: 5em;
+    height: 7em;
+    width: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}

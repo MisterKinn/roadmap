@@ -1,0 +1,16 @@
+#mobile-banner {
+    text-align: center;
+}
+
+#mobile-banner img {
+    margin-top: 3em;
+    height: 3em;
+    width: auto;
+}
+
+.mobile-copyright {
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}

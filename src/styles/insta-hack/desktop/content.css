@@ -1,0 +1,24 @@
+.content {
+    margin-top: -5em;
+    padding: 5em;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #c3c3c6;
+}
+
+.content a {
+    color: #0064ff;
+}
+
+.white {
+    font-weight: bold;
+    color: white;
+}
+
+.menu-img {
+    height: 1em;
+    width: auto;
+}

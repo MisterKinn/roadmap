@@ -16,11 +16,7 @@ function Promotion() {
                     지금 RoadMap에 합류하세요!
                 </h2>
 
-                <a
-                    href="https://tally.so/r/meedxq"
-                    target="_blank"
-                    title="RoadMap 지원하기"
-                >
+                <a href="" target="_blank" title="RoadMap 지원하기">
                     <button className="join" data-aos="fade-up">
                         동아리 지원하기
                     </button>
