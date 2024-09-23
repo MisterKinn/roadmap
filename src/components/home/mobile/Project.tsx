@@ -4,13 +4,32 @@ function Project() {
             <h2 className="introduce" data-aos="fade-up">
                 프로젝트
             </h2>
-            <p className="mobile-project-text" data-aos="fade-up">
-                아직까지 개발된 프로젝트가 없습니다.
-                <br />
-                동아리에 가입하셔서
-                <br />
-                첫 프로젝트를 함께 만들어보세요!
-            </p>
+            
+            <div className="container" data-aos="fade-up">
+                <div className="spec">
+                    <div className="mobile-card-container3 spec2">
+                        <div>
+                            <div className="column-center">
+                                <img
+                                    loading="lazy"
+                                    src="img/instagram.png"
+                                    className="card-img"
+                                />
+                                <span className="mobile-card-title">
+                                    <strong> 인스타그램 계정<br />해킹 방지 캠페인</strong>
+                                </span>
+                            </div>
+                            <div className="mobile-card-text">
+                                <strong>
+                                    인스타그램 계정의 해킹 방지 및
+                                    <br />
+                                    해킹 시 대처 방법에 관해 설명합니다.
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
