@@ -32,7 +32,7 @@
     height: 4em;
     width: 12em;
     gap: 30px;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 16px;
     margin: 10px;
     padding: 24px;
@@ -47,7 +47,7 @@
     height: 3em;
     width: 6em;
     gap: 30px;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 16px;
     margin: 10px;
     padding: 24px;

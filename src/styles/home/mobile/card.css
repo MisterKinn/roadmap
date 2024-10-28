@@ -1,5 +1,6 @@
 .mobile-introduce {
     margin: 0.75em;
+    margin-top: 5em;
     font-size: 1.75em;
     color: white;
 }
@@ -36,7 +37,7 @@
     height: 3em;
     width: 9em;
     gap: 30px;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 16px;
     margin: 10px;
     padding: 24px;
@@ -51,7 +52,7 @@
     height: 2em;
     width: 6em;
     gap: 30px;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 16px;
     margin: 10px;
     padding: 24px;

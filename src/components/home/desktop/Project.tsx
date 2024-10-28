@@ -48,18 +48,15 @@ function Project() {
                             <div className="column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/about-2.png"
+                                    src="img/uxinsight.png"
                                     className="card-img"
                                 />
-                                <span className="card-title">
-                                    자유롭게 학습합니다
-                                </span>
+                                <span className="card-title">UX Insight</span>
                             </div>
                             <div className="card-text">
-                                온라인 기반 학습 시스템을 통해
+                                사용자가 URL을 입력하면 해당 페이지의
                                 <br />
-                                때와 장소에 상관없이 언제든지
-                                <br />웹 개발 지식을 학습할 수 있습니다.
+                                UX를 분석하여 피드백을 제공합니다.
                             </div>
                         </div>
                     </div>
