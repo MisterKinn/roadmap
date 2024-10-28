@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
+import { Analytics } from "@vercel/analytics/react";
 import AOS from "aos";
 import "@/styles/aos.css";
 import "@/styles/roadmap.css";
@@ -45,6 +46,7 @@ function RoadMap() {
     if (isMobile) {
         return (
             <div>
+                <Analytics />
                 <Sidebar />
                 <MobileHome />
                 <MobileAbout />
@@ -57,6 +59,7 @@ function RoadMap() {
     } else {
         return (
             <div>
+                <Analytics />
                 <NavBar />
                 <Home />
                 <About />
