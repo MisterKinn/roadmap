@@ -4,15 +4,17 @@ import { useMediaQuery } from "react-responsive";
 import AOS from "aos";
 import "@/styles/aos.css";
 import "@/styles/roadmap.css";
+import "@/styles/desktop/navbar.css";
+import "@/styles/desktop/card.css";
+import "@/styles/desktop/promotion.css";
 
-import Home from "@/components/home/Home";
-import About from "@/components/home/About";
-import Curriculum from "@/components/home/Curriculum";
-import Project from "@/components/home/Project";
-import Profile from "@/components/home/Profile";
-import Promotion from "@/components/home/Promotion";
-import Banner from "@/components/home/Banner";
-import Footer from "@/components/home/Footer";
+import NavBar from "@/components/home/desktop/NavBar";
+import Home from "@/components/home/desktop/Home";
+import About from "@/components/home/desktop/About";
+import Curriculum from "@/components/home/desktop/Curriculum";
+import Project from "@/components/home/desktop/Project";
+import Profile from "@/components/home/desktop/Profile";
+import Promotion from "@/components/home/desktop/Promotion";
 
 import MobileHome from "@/components/home/mobile/Home";
 import MobileAbout from "@/components/home/mobile/About";
@@ -46,14 +48,13 @@ function RoadMap() {
     } else {
         return (
             <div>
+                <NavBar />
                 <Home />
                 <About />
                 <Curriculum />
                 <Project />
                 <Profile />
                 <Promotion />
-                <Banner />
-                <Footer />
             </div>
         );
     }

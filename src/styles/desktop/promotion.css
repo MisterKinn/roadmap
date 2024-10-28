@@ -1,0 +1,126 @@
+.center {
+    margin-top: 12.5em;
+    text-align: center;
+}
+
+.center h1 {
+    font-size: 3.5em;
+    color: white;
+}
+
+.center h2 {
+    margin-top: -1em;
+    font-size: 1.75em;
+    line-height: 1.4;
+    color: #a0a0a0;
+}
+
+.join,
+.join *,
+.join :after,
+.join :before,
+.join:after,
+.join:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.join {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    height: 4.5em;
+    width: 17em;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.join:disabled {
+    cursor: default;
+}
+
+.join:-moz-focusring {
+    outline: auto;
+}
+
+.join [hidden] {
+    display: none;
+}
+
+.join {
+    border-radius: 99rem;
+    border-width: 2px;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 7.5em;
+    padding: 0.8rem 3rem;
+    position: relative;
+    white-space: nowrap;
+}
+
+.sidebar-join {
+    margin-left: -0.5em;
+    padding: 0;
+    height: 3.5em;
+    width: 10em;
+}
+
+.join span {
+    mix-blend-mode: difference;
+    font-size: 1.5em;
+    margin-left: -0.5em;
+}
+
+.join:after,
+.join:before {
+    background: linear-gradient(
+        90deg,
+        #fff 25%,
+        transparent 0,
+        transparent 50%,
+        #fff 0,
+        #fff 75%,
+        transparent 0
+    );
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: translateY(var(--progress, 100%));
+    transition: transform 0.2s ease;
+}
+
+.join:after {
+    --progress: -100%;
+    background: linear-gradient(
+        90deg,
+        transparent 0,
+        transparent 25%,
+        #fff 0,
+        #fff 50%,
+        transparent 0,
+        transparent 75%,
+        #fff 0
+    );
+    z-index: -1;
+}
+
+.join:hover:after,
+.join:hover:before {
+    --progress: 0;
+}
+
+.banner {
+    margin-top: -5em;
+    height: 20em;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

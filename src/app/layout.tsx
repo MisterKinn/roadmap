@@ -5,9 +5,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "RoadMap",
-    description: "Web Club in gmsh",
+    description: "Web Development Club in GMSH",
     icons: {
-        icon: "img/road-map.png",
+        icon: "img/roadmap.png",
     },
     other: {
         url: "img/roadmap-banner.png",
