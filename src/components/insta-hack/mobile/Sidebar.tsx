@@ -1,6 +1,6 @@
 "use client";
 import { openMenu, closeMenu } from "@/app/sidebar";
-import "@/styles/insta-hack/mobile/sidebar.css";
+import "@/styles/home/mobile/sidebar.css";
 
 function Sidebar() {
     return (
