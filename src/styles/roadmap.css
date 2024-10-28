@@ -1,3 +1,7 @@
+nextjs-portal {
+    display: none;
+}
+
 html,
 body {
     margin: 0;
@@ -7,10 +11,6 @@ body {
     position: relative;
     overflow-x: hidden;
     scroll-behavior: smooth;
-}
-
-.white {
-    color: white;
 }
 
 #home,

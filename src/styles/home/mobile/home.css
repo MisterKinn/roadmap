@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.header {
+.mobile-header {
     height: 100vh;
     width: 100%;
     top: 0;
@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.header-img {
+.mobile-header-img {
     height: 100vh;
     width: 100vw;
     top: 0;
@@ -25,7 +25,7 @@
     position: fixed;
 }
 
-.text-container {
+.mobile-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@
     position: absolute;
 }
 
-.text-container2 {
+.mobile-text-container2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,77 +44,56 @@
     margin-top: 75em;
 }
 
-.section {
+.mobile-section {
     padding: 20px;
     height: ;
 }
 
-.section-content h1 {
+.mobile-section-content h1 {
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 1.25em;
     color: white;
 }
 
-.section-content h2 {
+.mobile-section-content h2 {
     margin: 0;
-    font-size: 2.75em;
+    font-size: 2.5em;
     color: white;
 }
 
-.section-content p {
+.mobile-section-content p {
     margin-top: 10em;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4;
     color: white;
 }
 
-.blank {
+.mobile-blank {
     margin-top: 1000px;
 }
 
-.title {
+.mobile-title {
     font-size: 3.75em;
     color: white;
     margin: 0.5em;
 }
 
-.mobile-title {
-    margin-top: -0.5em;
-    font-size: 2.25em;
-    color: white;
-}
-
-.sub-title {
+.mobile-sub-title {
     margin-bottom: -1em;
     font-size: 1.75em;
     color: #ccc;
 }
 
-.mobile-sub-title {
-    font-size: 1.5em;
-    color: #ccc;
-}
-
-.img-container {
+.mobile-img-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: absolute;
 }
 
-.arrow {
-    width: 5em;
-    margin-top: 40em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    animation: MoveUpDown 2s linear infinite;
-    position: relative;
-}
-
 .mobile-arrow {
     width: 5em;
-    margin-top: 35em;
+    margin-top: 40em;
     display: block;
     margin-left: auto;
     margin-right: auto;

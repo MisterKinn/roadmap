@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import "@/styles/desktop/home.css";
 
 function Home() {
     const [brightness, setBrightness] = useState(0.4);
@@ -68,11 +67,7 @@ function Home() {
                 </div>
 
                 <div className="img-container" data-aos="fade-up">
-                    <img
-                        loading="lazy"
-                        src="https://todaylunch.vercel.app/img/arrow.png"
-                        className="arrow"
-                    />
+                    <img loading="lazy" src="img/arrow.png" className="arrow" />
                 </div>
             </header>
         </div>

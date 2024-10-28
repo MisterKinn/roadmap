@@ -1,12 +1,19 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import AOS from "aos";
 import "@/styles/aos.css";
 import "@/styles/roadmap.css";
-import "@/styles/desktop/navbar.css";
-import "@/styles/desktop/card.css";
-import "@/styles/desktop/promotion.css";
+
+import "@/styles/home/desktop/navbar.css";
+import "@/styles/home/desktop/home.css";
+import "@/styles/home/desktop/card.css";
+import "@/styles/home/desktop/promotion.css";
+
+import "@/styles/home/mobile/sidebar.css";
+import "@/styles/home/mobile/home.css";
+import "@/styles/home/mobile/card.css";
+import "@/styles/home/mobile/promotion.css";
 
 import NavBar from "@/components/home/desktop/NavBar";
 import Home from "@/components/home/desktop/Home";
@@ -16,33 +23,35 @@ import Project from "@/components/home/desktop/Project";
 import Profile from "@/components/home/desktop/Profile";
 import Promotion from "@/components/home/desktop/Promotion";
 
+import Sidebar from "@/components/home/mobile/SideBar";
 import MobileHome from "@/components/home/mobile/Home";
 import MobileAbout from "@/components/home/mobile/About";
 import MobileCurriculum from "@/components/home/mobile/Curriculum";
 import MobileProject from "@/components/home/mobile/Project";
 import MobileProfile from "@/components/home/mobile/Profile";
-import MobileBanner from "@/components/home/mobile/Banner";
-import MobileFooter from "@/components/home/mobile/Footer";
+import MobilePromotion from "@/components/home/mobile/Promotion";
 
 function RoadMap() {
+    const [isClient, setIsClient] = useState(false);
+    const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+
     useEffect(() => {
-        AOS.init({
-            duration: 1000,
-        });
+        setIsClient(true);
+        AOS.init({ duration: 1000 });
     }, []);
 
-    const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
+    if (!isClient) return null;
 
     if (isMobile) {
         return (
             <div>
+                <Sidebar />
                 <MobileHome />
                 <MobileAbout />
                 <MobileCurriculum />
                 <MobileProject />
                 <MobileProfile />
-                <MobileBanner />
-                <MobileFooter />
+                <MobilePromotion />
             </div>
         );
     } else {

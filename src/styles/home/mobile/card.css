@@ -1,32 +1,40 @@
-.introduce {
-    margin: 2.5em;
-    font-size: 3em;
+.mobile-introduce {
+    margin: 0.75em;
+    font-size: 1.75em;
     color: white;
 }
 
-.intro-text {
-    margin-top: -5.5em;
-    margin-left: 6em;
+.mobile-blank {
+    margin-top: 2.5em;
+}
+
+.mobile-intro-text {
+    margin-top: -1em;
+    margin-left: 1.25em;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 0.9em;
     font-weight: bold;
     color: #a0a0a0;
 }
 
-.container {
+.mobile-white {
+    color: white;
+}
+
+.mobile-container {
     display: flex;
     justify-content: center;
 }
 
-.container a {
+.mobile-container a {
     text-decoration: none;
 }
 
-.card-container {
+.mobile-card-container {
     display: flex;
     flex-direction: column;
-    height: 4em;
-    width: 12em;
+    height: 3em;
+    width: 9em;
     gap: 30px;
     border: 2px solid gray;
     border-radius: 16px;
@@ -37,10 +45,10 @@
     text-decoration: none;
 }
 
-.card-container2 {
+.mobile-card-container2 {
     display: flex;
     flex-direction: column;
-    height: 3em;
+    height: 2em;
     width: 6em;
     gap: 30px;
     border: 2px solid gray;
@@ -52,32 +60,33 @@
     text-decoration: none;
 }
 
-.card-img {
-    height: 45px;
-    width: 45px;
+.mobile-card-img {
+    height: 40px;
+    width: 40px;
 }
 
-.card-title {
-    font-size: 0.8em;
+.mobile-card-title {
+    marign-right: -1em;
+    font-size: 0.6em;
     font-weight: bold;
     color: white;
 }
 
-.card-text {
-    margin-top: 0.5em;
+.mobile-card-text {
+    margin-top: 0.4em;
     text-align: left;
-    font-size: 0.6em;
+    font-size: 0.4em;
     line-height: 1.4;
     font-weight: bold;
     color: #a0a0a0;
 }
 
-.card-footer {
+.mobile-card-footer {
     font-size: 17px;
     color: white;
 }
 
-.column-center {
+.mobile-column-center {
     display: flex;
     align-items: center;
     column-gap: 10px;
