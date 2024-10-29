@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 function Home() {
     const [brightness, setBrightness] = useState(0.4);
+    const [zoom, setZoom] = useState(1); // New state for zoom level
 
     useEffect(() => {
         const handleScroll = () => {
@@ -11,11 +12,18 @@ function Home() {
                 const scrollPosition = window.scrollY;
                 const homeHeight = homeElement.offsetHeight + 5000;
 
+                // Adjust brightness
                 const newBrightness = Math.max(
                     0.4 - scrollPosition / homeHeight,
                     0
                 );
                 setBrightness(newBrightness);
+
+                // Adjust zoom level
+                const maxZoom = 2; // Maximum zoom level
+                const newZoom =
+                    1 + (scrollPosition / homeHeight) * (maxZoom - 1);
+                setZoom(newZoom);
             }
         };
 
@@ -29,7 +37,11 @@ function Home() {
                 <img
                     src="img/gmsh.png"
                     alt="GMSH RoadMap"
-                    style={{ filter: `brightness(${brightness})` }}
+                    style={{
+                        filter: `brightness(${brightness})`,
+                        transform: `scale(${zoom})`, // Add transform for zoom effect
+                        transition: "transform 0.1s ease-out", // Smooth zooming
+                    }}
                     className="header-img"
                 />
 
