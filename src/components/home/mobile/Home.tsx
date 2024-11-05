@@ -10,7 +10,7 @@ function Home() {
             const homeElement = document.getElementById("home");
             if (homeElement) {
                 const scrollPosition = window.scrollY;
-                const homeHeight = homeElement.offsetHeight + 5000;
+                const homeHeight = homeElement.offsetHeight + 14000;
 
                 // Adjust brightness
                 const newBrightness = Math.max(
