@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     height: 4em;
-    width: 12em;
+    width: 14em;
     gap: 30px;
     border: 2px solid white;
     border-radius: 16px;
@@ -62,6 +62,8 @@
 }
 
 .card-title {
+    padding-left: -2em;
+    padding-right: -2em;
     font-size: 0.8em;
     font-weight: bold;
     color: white;
@@ -69,6 +71,8 @@
 
 .card-text {
     margin-top: 0.5em;
+    padding-left: -2em;
+    padding-right: -2em;
     text-align: left;
     font-size: 0.6em;
     line-height: 1.4;

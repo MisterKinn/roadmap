@@ -8,6 +8,7 @@ import "@/styles/roadmap.css";
 
 import "@/styles/home/desktop/navbar.css";
 import "@/styles/home/desktop/home.css";
+import "@/styles/home/desktop/feature.css"
 import "@/styles/home/desktop/card.css";
 import "@/styles/home/desktop/promotion.css";
 
@@ -18,6 +19,7 @@ import "@/styles/home/mobile/promotion.css";
 
 import NavBar from "@/components/home/desktop/NavBar";
 import Home from "@/components/home/desktop/Home";
+import Feature from "@/components/home/desktop/Feature";
 import About from "@/components/home/desktop/About";
 import Curriculum from "@/components/home/desktop/Curriculum";
 import Project from "@/components/home/desktop/Project";
@@ -62,6 +64,7 @@ function RoadMap() {
                 <Analytics />
                 <NavBar />
                 <Home />
+                <Feature />
                 <About />
                 <Curriculum />
                 <Project />
