@@ -1,17 +1,17 @@
 function Profile() {
     return (
         <div id="profile">
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="introduce" data-aos="flip-left">
                 문의
             </h2>
-            <p className="intro-text" data-aos="fade-up">
+            <p className="intro-text" data-aos="flip-left">
                 동아리와 관련해서 <span className="white">문의</span>할 사항은
                 <br />
                 <span className="white">Mail</span>과{" "}
                 <span className="white">Instagram</span>으로 문의해주세요.
             </p>
 
-            <div className="container" data-aos="fade-up">
+            <div className="container" data-aos="fade">
                 <a
                     href="mailto:help@gmsh.kr"
                     target="_blank"
@@ -19,7 +19,7 @@ function Profile() {
                     className="no-deco"
                 >
                     <div className="spec">
-                        <div className="card-container2">
+                        <div className="card-container2" data-aos="slide-right">
                             <div>
                                 <div className="column-center">
                                     <img
@@ -46,7 +46,7 @@ function Profile() {
                         title="Instagram"
                         className="no-deco"
                     >
-                        <div className="card-container2">
+                        <div className="card-container2" data-aos="slide-left">
                             <div>
                                 <div className="column-center">
                                     <img

@@ -1,10 +1,10 @@
 function About() {
     return (
         <div id="about">
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="introduce" data-aos="flip-left">
                 누구나 가진 상상력의 힘을 믿습니다
             </h2>
-            <p className="intro-text" data-aos="fade-up">
+            <p className="intro-text" data-aos="flip-left">
                 만약 누군가의 <span className="white">상상력</span>이 없었다면,
                 모두를 위한 새로운 <span className="white">혁신</span>은 없었을
                 것입니다.
@@ -13,8 +13,8 @@ function About() {
                 에서는 다양한 방법으로 부원들의{" "}
                 <span className="white">상상력</span>을 향상시킵니다.
             </p>
-            <div className="container spec" data-aos="fade-up">
-                <div className="card-container">
+            <div className="container spec" data-aos="fade">
+                <div className="card-container" data-aos="slide-right">
                     <div>
                         <div className="column-center">
                             <img
@@ -36,7 +36,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="card-container">
+                <div className="card-container" data-aos="slide-left">
                     <div>
                         <div className="column-center">
                             <img
@@ -58,8 +58,8 @@ function About() {
                 </div>
             </div>
 
-            <div className="container spec" data-aos="fade-up">
-                <div className="card-container">
+            <div className="container spec" data-aos="fade">
+                <div className="card-container" data-aos="slide-right">
                     <div>
                         <div className="column-center">
                             <img
@@ -81,7 +81,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="card-container">
+                <div className="card-container" data-aos="slide-left">
                     <div>
                         <div className="column-center">
                             <img
@@ -104,18 +104,18 @@ function About() {
                 </div>
             </div>
 
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="introduce" data-aos="flip-left">
                 탁월한 동료들과 함께합니다
             </h2>
-            <p className="intro-text" data-aos="fade-up">
+            <p className="intro-text" data-aos="flip-left">
                 자유롭게 <span className="white">상상</span>하고{" "}
                 <span className="white">실현</span>하는
                 <br />
                 <span className="white">훌륭한 동료</span>들과 함께{" "}
                 <span className="white">성장</span>해보세요.
             </p>
-            <div className="container spec" data-aos="fade-up">
-                <div className="card-container">
+            <div className="container spec" data-aos="fade">
+                <div className="card-container" data-aos="slide-right">
                     <div>
                         <div className="column-center">
                             <img
@@ -137,7 +137,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="card-container">
+                <div className="card-container" data-aos="slide-left">
                     <div>
                         <div className="column-center">
                             <img
@@ -160,8 +160,8 @@ function About() {
                 </div>
             </div>
 
-            <div className="container spec" data-aos="fade-up">
-                <div className="card-container">
+            <div className="container spec" data-aos="fade">
+                <div className="card-container" data-aos="slide-right">
                     <div>
                         <div className="column-center">
                             <img
@@ -183,7 +183,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="card-container">
+                <div className="card-container" data-aos="slide-left">
                     <div>
                         <div className="column-center">
                             <img

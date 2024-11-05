@@ -1,23 +1,23 @@
 function Project() {
     return (
         <div id="project">
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="introduce" data-aos="flip-left">
                 프로젝트
             </h2>
-            <p className="intro-text" data-aos="fade-up">
+            <p className="intro-text" data-aos="flip-left">
                 <span className="white">유능한 부원</span>들의{" "}
                 <span className="white">상상력</span>으로 나온 프로젝트들입니다.
                 <br />
                 카드를 누르면 해당 프로젝트로{" "}
                 <span className="white">이동</span>합니다.
             </p>
-            <div className="container" data-aos="fade-up">
+            <div className="container" data-aos="fade">
                 <a
                     href="/insta-hack"
                     target="_blank"
                     title="인스타그램 해킹 방지 캠페인"
                 >
-                    <div className="card-container">
+                    <div className="card-container" data-aos="slide-right">
                         <div>
                             <div className="column-center">
                                 <img
@@ -43,7 +43,7 @@ function Project() {
                     target="_blank"
                     title="UX Insight"
                 >
-                    <div className="card-container">
+                    <div className="card-container" data-aos="slide-left">
                         <div>
                             <div className="column-center">
                                 <img

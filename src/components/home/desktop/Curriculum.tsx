@@ -1,18 +1,18 @@
 function Curriculum() {
     return (
         <div id="curriculum">
-            <h2 className="introduce" data-aos="fade-up">
+            <h2 className="introduce" data-aos="flip-left">
                 커리큘럼
             </h2>
-            <p className="intro-text" data-aos="fade-up">
+            <p className="intro-text" data-aos="flip-left">
                 <span className="white">체계적인 커리큘럼</span>을 통해
                 <br />
                 부원들의 <span className="white">웹 개발 역량</span>을
                 효율적으로 <span className="white">향상</span>시킵니다.
             </p>
-            <div className="container" data-aos="fade-up">
+            <div className="container" data-aos="fade">
                 <div className="spec">
-                    <div className="card-container spec2">
+                    <div className="card-container spec2" data-aos="slide-right">
                         <div>
                             <div className="column-center">
                                 <img
@@ -39,7 +39,7 @@ function Curriculum() {
                 </div>
 
                 <div className="spec">
-                    <div className="card-container spec2">
+                    <div className="card-container spec2" data-aos="slide-left">
                         <div>
                             <div className="column-center">
                                 <img
@@ -69,7 +69,7 @@ function Curriculum() {
 
             <div className="container" data-aos="fade-up">
                 <div className="spec">
-                    <div className="card-container spec2">
+                    <div className="card-container spec2" data-aos="slide-right">
                         <div>
                             <div className="column-center">
                                 <img
@@ -96,7 +96,7 @@ function Curriculum() {
                 </div>
 
                 <div className="spec">
-                    <div className="card-container spec2">
+                    <div className="card-container spec2" data-aos="slide-left">
                         <div>
                             <div className="column-center">
                                 <img
