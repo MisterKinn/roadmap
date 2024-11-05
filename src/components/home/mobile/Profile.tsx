@@ -1,10 +1,10 @@
 function Profile() {
     return (
         <div id="profile">
-            <h2 className="mobile-introduce" data-aos="fade-up">
+            <h2 className="mobile-introduce" data-aos="flip-left">
                 문의
             </h2>
-            <p className="mobile-intro-text" data-aos="fade-up">
+            <p className="mobile-intro-text" data-aos="flip-left">
                 동아리와 관련해서 <span className="mobile-white">문의</span>할
                 사항은
                 <br />

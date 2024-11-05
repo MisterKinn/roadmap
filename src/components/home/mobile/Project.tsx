@@ -1,10 +1,10 @@
 function Project() {
     return (
         <div id="project">
-            <h2 className="mobile-introduce" data-aos="fade-up">
+            <h2 className="mobile-introduce" data-aos="flip-left">
                 프로젝트
             </h2>
-            <p className="mobile-intro-text" data-aos="fade-up">
+            <p className="mobile-intro-text" data-aos="flip-left">
                 <span className="mobile-white">유능한 부원</span>들의{" "}
                 <span className="mobile-white">상상력</span>으로 나온
                 프로젝트들입니다.

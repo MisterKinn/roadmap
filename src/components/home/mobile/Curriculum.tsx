@@ -1,10 +1,10 @@
 function Curriculum() {
     return (
         <div id="curriculum">
-            <h2 className="mobile-introduce" data-aos="fade-up">
+            <h2 className="mobile-introduce" data-aos="flip-left">
                 커리큘럼
             </h2>
-            <p className="mobile-intro-text" data-aos="fade-up">
+            <p className="mobile-intro-text" data-aos="flip-left">
                 <span className="mobile-white">체계적인 커리큘럼</span>을 통해
                 <br />
                 부원들의 <span className="mobile-white">웹 개발 역량</span>을

@@ -1,10 +1,10 @@
 function About() {
     return (
         <div id="about">
-            <h2 className="mobile-introduce" data-aos="fade-up">
+            <h2 className="mobile-introduce" data-aos="flip-left">
                 상상력의 힘을 믿습니다
             </h2>
-            <p className="mobile-intro-text" data-aos="fade-up">
+            <p className="mobile-intro-text" data-aos="flip-left">
                 만약 누군가의 <span className="mobile-white">상상력</span>이
                 없었다면,
                 <br />
@@ -17,7 +17,7 @@ function About() {
                 부원들의 <span className="mobile-white">상상력</span>을
                 향상시킵니다.
             </p>
-            <div className="mobile-container spec" data-aos="fade-up">
+            <div className="mobile-container spec" data-aos="fade">
                 <div className="mobile-card-container">
                     <div>
                         <div className="mobile-column-center">
@@ -109,10 +109,10 @@ function About() {
                 </div>
             </div>
 
-            <h2 className="mobile-introduce mobile-blank" data-aos="fade-up">
+            <h2 className="mobile-introduce mobile-blank" data-aos="flip-left">
                 탁월한 동료들과 함께합니다
             </h2>
-            <p className="mobile-intro-text" data-aos="fade-up">
+            <p className="mobile-intro-text" data-aos="flip-left">
                 자유롭게 <span className="mobile-white">상상</span>하고{" "}
                 <span className="mobile-white">실현</span>하는
                 <br />
