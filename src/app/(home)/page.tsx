@@ -14,6 +14,7 @@ import "@/styles/home/desktop/promotion.css";
 
 import "@/styles/home/mobile/sidebar.css";
 import "@/styles/home/mobile/home.css";
+import "@/styles/home/mobile/feature.css";
 import "@/styles/home/mobile/card.css";
 import "@/styles/home/mobile/promotion.css";
 
@@ -28,6 +29,7 @@ import Promotion from "@/components/home/desktop/Promotion";
 
 import Sidebar from "@/components/home/mobile/SideBar";
 import MobileHome from "@/components/home/mobile/Home";
+import MobileFeature from "@/components/home/mobile/Feature";
 import MobileAbout from "@/components/home/mobile/About";
 import MobileCurriculum from "@/components/home/mobile/Curriculum";
 import MobileProject from "@/components/home/mobile/Project";
@@ -51,6 +53,7 @@ function RoadMap() {
                 <Analytics />
                 <Sidebar />
                 <MobileHome />
+                <MobileFeature />
                 <MobileAbout />
                 <MobileCurriculum />
                 <MobileProject />
