@@ -8,7 +8,7 @@ import "@/styles/roadmap.css";
 
 import "@/styles/home/desktop/navbar.css";
 import "@/styles/home/desktop/home.css";
-import "@/styles/home/desktop/feature.css"
+import "@/styles/home/desktop/feature.css";
 import "@/styles/home/desktop/card.css";
 import "@/styles/home/desktop/promotion.css";
 

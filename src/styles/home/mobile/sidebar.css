@@ -2,77 +2,119 @@
     display: none;
 }
 
+/* Sidebar panel styling with dynamic, calm, darker background */
 .sidebar {
     height: 100%;
-    width: 0px;
+    width: 0;
     position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
-    background-color: #696969;
-    transition: 0.3s;
+    background: linear-gradient(
+        45deg,
+        #1b1b1f,
+        #242429,
+        #2e2e34,
+        #383841
+    ); /* Dark color gradient */
+    background-size: 400% 400%; /* Larger background size for smoother movement */
+    animation: calmGradientAnimation 20s ease-in-out infinite; /* Slow, smooth animation */
+    overflow-x: hidden;
+    transition: width 0.4s ease, box-shadow 0.4s ease;
     padding-top: 60px;
+    box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.6);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
+/* Sidebar open state */
+.sidebar.open {
+    width: 250px;
+    box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Gradient animation keyframes for calm, slow movement */
+@keyframes calmGradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Sidebar content transition */
+.sidebar-content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+
+.sidebar.open .sidebar-content {
+    opacity: 1;
+}
+
+/* Sidebar links */
 .sidebar a {
     display: block;
-    margin-top: -0.5em;
-    padding: 1em;
+    padding: 1em 1.5em;
+    font-size: 1.2em;
+    color: #f1f1f1;
     text-decoration: none;
-    font-size: 1.5em;
-    color: black;
-    transition: 0.3s;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .sidebar a:hover {
-    background-color: #f1f1f1;
+    background-color: #444444;
+    color: #ffffff;
 }
 
 .menu-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    height: 4em;
-    width: 100vw;
-}
-
-.openbtn {
-    top: 0;
-    left: 0;
+    top: 1em;
+    left: 1em;
+    z-index: 3;
+    padding: 0.5em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
     cursor: pointer;
-    position: fixed;
-    margin: 0.5em;
-    padding: 10px 15px;
-    height: 2.5em;
-    width: auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-container:hover {
+    background-color: #f1f1f1; /* Slight color change on hover */
+    transform: scale(1.1); /* Scale up for hover effect */
+}
+
+/* Hamburger icon styling */
+.openbtn {
+    height: 2em;
+    width: 2em;
     border: none;
+    cursor: pointer;
 }
 
-.mobile-logo {
-    margin-top: 1em;
-    margin-left: 3em;
-    height: 2.5em;
-    width: auto;
-}
-
-.sidebar-content {
-    display: none;
-}
-
+/* Sidebar close button with animation */
 .close-img {
     position: absolute;
     top: 25px;
     right: 25px;
     height: 50px;
     width: auto;
-    margin-left: 50px;
-    color: grey;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
+.close-img:hover {
+    transform: rotate(90deg);
+}
+
+/* Sidebar Logo styling */
 .sidebar-logo {
     margin-left: -0.3em;
     margin-bottom: -1em;
@@ -82,39 +124,45 @@
     border-bottom: 1px gray solid;
 }
 
-.bottom-border {
-    margin: 15px;
-    border-bottom: 2px grey solid;
-    color: white;
-    font-size: 25px;
-}
-
-.sidebar-info {
-    text-align: left;
-    margin-left: 10px;
-    color: white;
-    font-size: 18px;
-}
-
+/* Optional Button Styling */
 .apply {
     display: inline-block;
     background-color: #ffffff;
     color: #333333;
     height: 3em;
     width: 8em;
-    margin: 0;
-    margin-left: -0.4em;
+    margin: 1em 0;
     padding: 10px 20px;
     border-radius: 30px;
     border: 2px solid #333333;
+    text-align: center;
     text-decoration: none;
-    font-size: 25px;
-    transition: background-color 0.3s, color 0.3s;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .apply:hover {
     background-color: #333333;
     color: #ffffff;
+}
+
+/* Overlay effect when sidebar is open */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.open {
+    display: block;
+    opacity: 1;
 }
 
 @media (max-width: 1120px) {
