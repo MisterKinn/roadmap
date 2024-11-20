@@ -39,7 +39,7 @@ function Project() {
                 </a>
 
                 <a
-                    href="https://kinn.kr/uxinsight"
+                    href="https://kinn-kr.vercel.app/uxinsight"
                     target="_blank"
                     title="UX Insight"
                 >

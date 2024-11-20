@@ -41,7 +41,7 @@ function Project() {
             </div>
             <div className="mobile-container" data-aos="fade-up">
                 <a
-                    href="https://kinn.kr/uxinsight"
+                    href="https://kinn-kr.vercel.app/uxinsight"
                     target="_blank"
                     title="UX Insight"
                 >

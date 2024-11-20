@@ -17,8 +17,8 @@ function About() {
                 부원들의 <span className="mobile-white">상상력</span>을
                 향상시킵니다.
             </p>
-            <div className="mobile-container spec" data-aos="fade">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-right">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -40,8 +40,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-left">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -63,8 +63,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-right">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -86,8 +86,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-left">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -121,8 +121,8 @@ function About() {
                 <span className="mobile-white">성장</span>해보세요.
             </p>
 
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-right">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -144,8 +144,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-left">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -167,8 +167,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-right">
                     <div>
                         <div className="mobile-column-center">
                             <img
@@ -190,8 +190,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="mobile-container spec" data-aos="fade-up">
-                <div className="mobile-card-container">
+            <div className="mobile-container spec">
+                <div className="mobile-card-container" data-aos="slide-left">
                     <div>
                         <div className="mobile-column-center">
                             <img
