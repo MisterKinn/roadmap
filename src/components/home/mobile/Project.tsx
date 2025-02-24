@@ -31,9 +31,11 @@ function Project() {
                                 </span>
                             </div>
                             <div className="mobile-card-text">
-                                인스타그램 계정의 해킹 방지 및
+                                <span className="white">인스타그램 계정</span>의{" "}
+                                <span className="white">해킹 방지</span> 및
                                 <br />
-                                해킹 시 대처 방법에 관해 설명합니다.
+                                <span className="white">해킹 시 대처 방법</span>
+                                에 관해 설명합니다.
                             </div>
                         </div>
                     </div>
@@ -41,26 +43,28 @@ function Project() {
             </div>
             <div className="mobile-container" data-aos="fade-up">
                 <a
-                    href="https://kinn-kr.vercel.app/uxinsight"
+                    href="https://kinn-kr.vercel.app/qr"
                     target="_blank"
-                    title="UX Insight"
+                    title="QR Crafter"
                 >
                     <div className="mobile-card-container">
                         <div>
                             <div className="mobile-column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/uxinsight.png"
+                                    src="img/link.png"
                                     className="mobile-card-img"
                                 />
                                 <span className="mobile-card-title">
-                                    UX Insight
+                                    QR Crafter
                                 </span>
                             </div>
                             <div className="mobile-card-text">
-                                사용자가 URL을 입력하면 해당 페이지의
+                                <span className="white">사용자의 입력</span>에
+                                따라 <span className="white">실시간</span>으로
                                 <br />
-                                UX를 분석하여 피드백을 제공합니다.
+                                <span className="white">QR 코드</span>를
+                                생성합니다.
                             </div>
                         </div>
                     </div>

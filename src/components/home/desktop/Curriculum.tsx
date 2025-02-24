@@ -12,7 +12,10 @@ function Curriculum() {
             </p>
             <div className="container" data-aos="fade">
                 <div className="spec">
-                    <div className="card-container spec2" data-aos="slide-right">
+                    <div
+                        className="card-container spec2"
+                        data-aos="slide-right"
+                    >
                         <div>
                             <div className="column-center">
                                 <img
@@ -29,8 +32,7 @@ function Curriculum() {
                                     </span>
                                     과 웹의 기본 언어인
                                     <br />
-                                    <span className="white">HTML</span>,{" "}
-                                    <span className="white">CSS</span> 등을
+                                    <span className="white">HTML</span>을
                                     학습합니다.
                                 </strong>
                             </div>
@@ -44,7 +46,7 @@ function Curriculum() {
                             <div className="column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/js.png"
+                                    src="img/css.png"
                                     className="card-img"
                                 />
                                 <span className="card-title">
@@ -53,13 +55,12 @@ function Curriculum() {
                             </div>
                             <div className="card-text">
                                 <strong>
-                                    프론트엔드 웹 개발의 기반 언어인
+                                    웹 페이지를 예쁘게{" "}
+                                    <span className="white">디자인</span>하는
+                                    언어인
                                     <br />
-                                    <span className="white">JavaScript</span>
-                                    를 학습하고
-                                    <br />
-                                    <span className="white">반응형 웹</span>을
-                                    만듭니다.
+                                    <span className="white">CSS</span>를
+                                    학습합니다.
                                 </strong>
                             </div>
                         </div>
@@ -69,12 +70,15 @@ function Curriculum() {
 
             <div className="container" data-aos="fade-up">
                 <div className="spec">
-                    <div className="card-container spec2" data-aos="slide-right">
+                    <div
+                        className="card-container spec2"
+                        data-aos="slide-right"
+                    >
                         <div>
                             <div className="column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/React.png"
+                                    src="img/js.png"
                                     className="card-img"
                                 />
                                 <span className="card-title">
@@ -83,12 +87,16 @@ function Curriculum() {
                             </div>
                             <div className="card-text">
                                 <strong>
-                                    <span className="white">React</span>를 통해
-                                    더욱 효율적으로
+                                    웹 페이지를{" "}
+                                    <span className="white">동적</span>으로
+                                    만들어주는
                                     <br />
-                                    웹을 개발하고 유지보수를
-                                    <br />
-                                    용이하게 만듭니다.
+                                    <span className="white">JavaScript</span>을
+                                    통해{" "}
+                                    <span className="white">
+                                        반응형 웹 페이지
+                                    </span>
+                                    를 개발합니다.
                                 </strong>
                             </div>
                         </div>
@@ -101,7 +109,7 @@ function Curriculum() {
                             <div className="column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/Nextjs.png"
+                                    src="img/git.png"
                                     className="card-img"
                                 />
                                 <span className="card-title">
@@ -110,13 +118,18 @@ function Curriculum() {
                             </div>
                             <div className="card-text">
                                 <strong>
-                                    <span className="white">Next.JS</span>를
-                                    통해 대기업들이
-                                    <br />
+                                    <span className="white">Git</span>를 통해
+                                    대기업들이{" "}
                                     <span className="white">실무</span>에서
                                     사용하는 방식으로
                                     <br />
-                                    웹을 개발합니다.
+                                    <span className="white">협업</span>하는
+                                    방식을 학습하고
+                                    <br />
+                                    부원들과 <span className="white">
+                                        함께
+                                    </span>{" "}
+                                    프로젝트를 진행합니다.
                                 </strong>
                             </div>
                         </div>

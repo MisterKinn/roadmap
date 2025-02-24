@@ -30,33 +30,37 @@ function Project() {
                                 </span>
                             </div>
                             <div className="card-text">
-                                인스타그램 계정의 해킹 방지 및
+                                <span className="white">인스타그램 계정</span>의{" "}
+                                <span className="white">해킹 방지</span> 및
                                 <br />
-                                해킹 시 대처 방법에 관해 설명합니다.
+                                <span className="white">해킹 시 대처 방법</span>
+                                에 관해 설명합니다.
                             </div>
                         </div>
                     </div>
                 </a>
 
                 <a
-                    href="https://kinn-kr.vercel.app/uxinsight"
+                    href="https://kinn-kr.vercel.app/qr"
                     target="_blank"
-                    title="UX Insight"
+                    title="QR Crafter"
                 >
                     <div className="card-container" data-aos="slide-left">
                         <div>
                             <div className="column-center">
                                 <img
                                     loading="lazy"
-                                    src="img/uxinsight.png"
+                                    src="img/link.png"
                                     className="card-img"
                                 />
-                                <span className="card-title">UX Insight</span>
+                                <span className="card-title">QR Crafter</span>
                             </div>
                             <div className="card-text">
-                                사용자가 URL을 입력하면 해당 페이지의
+                                <span className="white">사용자의 입력</span>에
+                                따라 <span className="white">실시간</span>으로
                                 <br />
-                                UX를 분석하여 피드백을 제공합니다.
+                                <span className="white">QR 코드</span>를
+                                생성합니다.
                             </div>
                         </div>
                     </div>
