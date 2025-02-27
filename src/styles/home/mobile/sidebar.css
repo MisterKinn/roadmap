@@ -2,7 +2,6 @@
     display: none;
 }
 
-/* Sidebar panel styling with dynamic, calm, darker background */
 .sidebar {
     height: 100%;
     width: 0;
@@ -10,15 +9,9 @@
     z-index: 2;
     top: 0;
     left: 0;
-    background: linear-gradient(
-        45deg,
-        #1b1b1f,
-        #242429,
-        #2e2e34,
-        #383841
-    ); /* Dark color gradient */
-    background-size: 400% 400%; /* Larger background size for smoother movement */
-    animation: calmGradientAnimation 20s ease-in-out infinite; /* Slow, smooth animation */
+    background: linear-gradient(45deg, #1b1b1f, #242429, #2e2e34, #383841);
+    background-size: 400% 400%;
+    animation: calmGradientAnimation 20s ease-in-out infinite;
     overflow-x: hidden;
     transition: width 0.4s ease, box-shadow 0.4s ease;
     padding-top: 60px;
@@ -27,13 +20,11 @@
     border-bottom-right-radius: 8px;
 }
 
-/* Sidebar open state */
 .sidebar.open {
     width: 250px;
     box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.6);
 }
 
-/* Gradient animation keyframes for calm, slow movement */
 @keyframes calmGradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -46,7 +37,6 @@
     }
 }
 
-/* Sidebar content transition */
 .sidebar-content {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -57,7 +47,6 @@
     opacity: 1;
 }
 
-/* Sidebar links */
 .sidebar a {
     display: block;
     padding: 1em 1.5em;
@@ -72,26 +61,28 @@
     color: #ffffff;
 }
 
-.menu-container {
+.row-align {
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 1em;
-    left: 1em;
+    margin-top: -5.5em;
+    margin-left: 1em;
+}
+
+.menu-container {
     z-index: 3;
     padding: 0.5em;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .menu-container:hover {
-    background-color: #f1f1f1; /* Slight color change on hover */
-    transform: scale(1.1); /* Scale up for hover effect */
+    background-color: #f1f1f1;
+    transform: scale(1.1);
 }
 
-/* Hamburger icon styling */
 .openbtn {
     height: 2em;
     width: 2em;
@@ -99,7 +90,6 @@
     cursor: pointer;
 }
 
-/* Sidebar close button with animation */
 .close-img {
     position: absolute;
     top: 25px;
@@ -114,7 +104,6 @@
     transform: rotate(90deg);
 }
 
-/* Sidebar Logo styling */
 .sidebar-logo {
     margin-left: -0.3em;
     margin-bottom: -1em;
@@ -124,7 +113,12 @@
     border-bottom: 1px gray solid;
 }
 
-/* Optional Button Styling */
+.mobile-logo {
+    height: 2.5em;
+    width: auto;
+    margin-left: 0.5em;
+}
+
 .apply {
     display: inline-block;
     background-color: #ffffff;
@@ -146,7 +140,6 @@
     color: #ffffff;
 }
 
-/* Overlay effect when sidebar is open */
 .overlay {
     display: none;
     position: fixed;

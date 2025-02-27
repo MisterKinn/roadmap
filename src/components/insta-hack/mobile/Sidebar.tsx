@@ -5,20 +5,25 @@ import "@/styles/home/mobile/sidebar.css";
 function Sidebar() {
     return (
         <div id="sidebar">
-            <div className="menu-container">
+            <div className="row-align">
                 <img
                     src="img/hambuger-bar.png"
                     alt="메뉴 열기"
-                    className="openbtn"
+                    className="menu-container openbtn"
                     onClick={openMenu}
                 />
 
-                <img
-                    src="img/insta-hack/logo.png"
-                    loading="lazy"
-                    alt="RoadMap X Devques"
-                    className="mobile-logo"
-                />
+                <a
+                    href="https://gmsh.kr/insta-hack"
+                    title="인스타그램 해킹 방지 캠페인"
+                >
+                    <img
+                        src="img/insta-hack/logo.png"
+                        loading="lazy"
+                        alt="RoadMap X Devques"
+                        className="mobile-logo"
+                    />
+                </a>
             </div>
 
             <div className="sidebar">
