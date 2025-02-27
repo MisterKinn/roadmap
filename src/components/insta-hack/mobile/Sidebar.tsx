@@ -9,7 +9,7 @@ function Sidebar() {
                 <img
                     src="img/hambuger-bar.png"
                     alt="메뉴 열기"
-                    className="menu-container openbtn"
+                    className="menu-container2 openbtn"
                     onClick={openMenu}
                 />
 

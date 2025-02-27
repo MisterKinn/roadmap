@@ -71,6 +71,19 @@
 }
 
 .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 1em;
+    z-index: 3;
+    padding: 0.5em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-container2 {
     z-index: 3;
     padding: 0.5em;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
