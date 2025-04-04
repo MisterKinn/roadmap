@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const Redirect = () => {
     useEffect(() => {
-        window.location.href = "https://tally.so/r/nW147v";
+        window.location.href = "https://tally.so/r/3NPxBG";
     }, []);
 };
 
