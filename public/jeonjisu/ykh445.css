@@ -1,0 +1,29 @@
+<style>
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    color: black;
+}
+
+#active {
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: lightgray;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+</style>

@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size:20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list{
+    color: black;
+    padding: 10px;
+}
+
+#active{
+    color: crimson;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color:lightgray;
+    padding:30px;
+    margin:20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+.so {
+    text-align: center;
+}
+
+.i {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    color:black;
+}
+
+#active {
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
