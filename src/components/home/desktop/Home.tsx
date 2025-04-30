@@ -46,7 +46,7 @@ function Home() {
                 />
 
                 <div className="text-container">
-                    <section className="section" data-aos="fade-up">
+                    <section className="section">
                         <div className="section-content">
                             <h1>상상을 현실로 만드는 웹 개발 동아리,</h1>
                             <h2>RoadMap입니다.</h2>
@@ -54,9 +54,14 @@ function Home() {
                     </section>
                 </div>
 
-
                 <div className="img-container">
-                    <img loading="lazy" src="img/arrow.png" className="arrow" />
+                    <a href="#about">
+                        <img
+                            loading="lazy"
+                            src="img/arrow.png"
+                            className="arrow"
+                        />
+                    </a>
                 </div>
             </header>
         </div>

@@ -46,7 +46,7 @@ function Home() {
                 />
 
                 <div className="mobile-text-container">
-                    <section className="mobile-section" data-aos="fade-up">
+                    <section className="mobile-section">
                         <div className="mobile-section-content">
                             <h1>상상을 현실로 만드는 웹 개발 동아리,</h1>
                             <h2>RoadMap입니다.</h2>
@@ -55,11 +55,13 @@ function Home() {
                 </div>
 
                 <div className="mobile-img-container" data-aos="fade-up">
-                    <img
-                        loading="lazy"
-                        src="img/arrow.png"
-                        className="mobile-arrow"
-                    />
+                    <a href="#about">
+                        <img
+                            loading="lazy"
+                            src="img/arrow.png"
+                            className="mobile-arrow"
+                        />
+                    </a>
                 </div>
             </header>
         </div>
