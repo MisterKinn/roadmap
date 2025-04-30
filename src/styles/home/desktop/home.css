@@ -53,6 +53,8 @@
     margin-top: -2em;
     bottom: 0;
     width: 100%;
+    opacity: 0;
+    animation: fadeUp 1s 0.6s forwards;
 }
 
 .arrow {
@@ -62,8 +64,6 @@
     margin-right: auto;
     animation: MoveUpDown 2s linear infinite;
     position: relative;
-    opacity: 0;
-    animation: fadeUp 1s 0.6s forwards;
 }
 
 .blank {
