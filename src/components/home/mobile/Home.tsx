@@ -54,7 +54,7 @@ function Home() {
                     </section>
                 </div>
 
-                <div className="mobile-img-container" data-aos="fade-up">
+                <div className="mobile-img-container">
                     <a href="#about">
                         <img
                             loading="lazy"
