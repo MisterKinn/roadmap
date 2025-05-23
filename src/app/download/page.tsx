@@ -25,7 +25,7 @@ const downloads: DownloadItem[] = [
 
     {
         title: "강준수",
-        file: "web.zip",
+        file: "web2.zip",
     },
 
     {
