@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FlexBox</title>
+        <style>
+            .container {
+                border: 10px solid red;
+                display: flex;
+                height: 300px;
+                margin: 20px;
+                flex-wrap: wrap;
+            }
+
+            .column {
+                flex-direction: column;
+            }
+
+            .one {
+                margin: 0;
+                color: blue;
+                border: 10px solid blue;
+                flex-basis: 50px;
+                flex-grow: 0;
+            }
+
+            .two {
+                margin: 0;
+                color: green;
+                border: 10px solid green;
+                flex-basis: 100px;
+                flex-grow: 1;
+            }
+
+            .three {
+                margin: 0;
+                color: pink;
+                border: 10px solid pink;
+                flex-basis: 200px;
+                flex-grow: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="one">one</h1>
+            <h1 class="two">two</h1>
+            <h1 class="three">three</h1>
+        </div>
+
+        <div class="container column">
+            <h1 class="one">one</h1>
+            <h1 class="two">two</h1>
+            <h1 class="three">three</h1>
+        </div>
+    </body>
+</html>

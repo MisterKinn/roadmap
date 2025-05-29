@@ -8,17 +8,14 @@
 
 h1 {
     text-align: center;
-    opacity: 0;
-    animation: fadeUp 1s forwards;
-}
-
-ul {
-    opacity: 0;
-    animation: fadeUp 1s 0.3s forwards;
+     opacity: 0;
+    animation: fadeup 1s forwards;
 }
 
 a {
     text-decoration: none;
+     opacity: 0;
+    animation: fadeup 1s 0.3s forwards;
 }
 
 .list {
@@ -38,31 +35,23 @@ p {
     margin: 30px;
     border-radius: 20px;
     opacity: 0;
-    animation: fadeUp 1s 0.6s forwards;
-
+    animation: fadeup 1s 0.6s forwards;
 }
 
 .container {
     display: flex;
     justify-content: center;
     opacity: 0;
-    animation: fadeUp 1s 1s forwards;
+    animation: fadeup 1s 1s forwards;
 }
 
-.card-container {
+.card-container{
     display: flex;
     flex-direction: column;
     height: 100px;
     width: 240px;
-    background-color: black;
+    background-color: #1c1c1c;
     border-radius: 16px;
-    margin: 10px;
-    padding: 24px;
-    text-decoration: none;
-
-}
-
-.card-container {
     margin: 10px;
     padding: 24px;
     text-decoration: none;
@@ -74,7 +63,7 @@ p {
     align-items: center;
 }
 
-.card-img {
+.card-img{
     height: 50px;
     width: 50px;
 }
@@ -85,22 +74,19 @@ p {
     font-weight: bold;
     color: white;
 }
-
 .card-text {
     margin: 10px;
     font-size: 20px;
     color: white;
 }
 
-@keyframes fadeUp {
-    0% {
+@keyframes fadeup {
+    0%{
         transform: translateY(20px);
-
     }
 
     100% {
         opacity: 1;
-        transform: translateY(0);
+        transform: translate(0);
     }
 }
-    

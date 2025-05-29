@@ -9,6 +9,11 @@ interface DownloadItem {
 
 const downloads: DownloadItem[] = [
     {
+        title: "예제",
+        file: "example.zip",
+    },
+
+    {
         title: "김건우",
         file: "gnwo.zip",
     },
@@ -42,6 +47,11 @@ const downloads: DownloadItem[] = [
         title: "전지수",
         file: "jeonjisu.zip",
     },
+
+    {
+        title: "고윤재",
+        file: "goyoonje.zip",
+    },
 ];
 
 interface DownloadCardProps {
@@ -69,6 +79,9 @@ export default function DownloadPage() {
                 <h1 className="page-title">RoadMap Project Download</h1>
                 <p className="page-subtitle">
                     지난 시간에 작업했던 프로젝트를 다운로드하세요.
+                    <br />
+                    지난 시간에 작업한 파일이 없는 경우 <strong>예제</strong>를
+                    다운로드하세요.
                 </p>
                 <div className="cards-grid">
                     {downloads.map((download, index) => (
