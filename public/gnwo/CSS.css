@@ -92,6 +92,41 @@ p {
     color: white;
 }
 
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-img {
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.header-container {
+    position: absolute;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 1.75em;
+    color: white;
+    text-shadow: 2px 2px black;
+    opacity: 0;
+    animation: fadeUp 1s 0.3s forwards;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    margin: 0.5em;
+    opacity: 0;
+    animation: fadeUp 1s forwards;
+}
+
 @keyframes fadeUp {
     0% {
         transform: translateY(20px);
@@ -104,3 +139,28 @@ p {
     }
 }
     
+@media (max-width: 800px) {
+    .header-img {
+        height: 80vh;
+    }
+
+    .title {
+        font-size: 1.25em;
+
+    }
+
+    .card-container {
+        height: 80px;
+        width: 200px;
+
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 17px;
+    }
+
+}
